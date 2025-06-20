@@ -1,0 +1,13 @@
+prefix=C:/Users/SHREYAS/OneDrive/Desktop/agentic_ai/agentic_ai/venv/Library
+exec_prefix=C:/Users/SHREYAS/OneDrive/Desktop/agentic_ai/agentic_ai/venv/Library
+libdir=C:/Users/SHREYAS/OneDrive/Desktop/agentic_ai/agentic_ai/venv/Library/lib
+sharedlibdir=C:/Users/SHREYAS/OneDrive/Desktop/agentic_ai/agentic_ai/venv/Library/lib
+includedir=C:/Users/SHREYAS/OneDrive/Desktop/agentic_ai/agentic_ai/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

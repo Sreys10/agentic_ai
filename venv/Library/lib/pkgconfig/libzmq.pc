@@ -1,0 +1,12 @@
+prefix=c:/Users/SHREYAS/OneDrive/Desktop/agentic_ai/agentic_ai/venv/Library
+exec_prefix=c:/Users/SHREYAS/OneDrive/Desktop/agentic_ai/agentic_ai/venv/Library
+libdir=c:/Users/SHREYAS/OneDrive/Desktop/agentic_ai/agentic_ai/venv/Library/lib
+includedir=c:/Users/SHREYAS/OneDrive/Desktop/agentic_ai/agentic_ai/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
